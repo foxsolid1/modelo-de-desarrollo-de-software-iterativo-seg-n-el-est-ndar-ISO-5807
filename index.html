@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama de Flujo ISO 5807 - Modelo Iterativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Inicio -->
+        <div class="flow-item oval">
+            <p>Inicio</p>
+        </div>
+
+        <div class="arrow-down"></div>
+
+        <!-- Recolección de Requisitos -->
+        <div class="flow-item rectangle">
+            <p>Recolección de Requisitos</p>
+        </div>
+
+        <div class="arrow-down"></div>
+
+        <!-- Diseño -->
+        <div class="flow-item rectangle">
+            <p>Diseño</p>
+        </div>
+
+        <div class="arrow-down"></div>
+
+        <!-- Implementación -->
+        <div class="flow-item rectangle">
+            <p>Implementación</p>
+        </div>
+
+        <div class="arrow-down"></div>
+
+        <!-- Pruebas -->
+        <div class="flow-item rectangle">
+            <p>Pruebas</p>
+        </div>
+
+        <div class="arrow-down"></div>
+
+        <!-- Evaluación -->
+        <div class="flow-item rectangle">
+            <p>Evaluación</p>
+        </div>
+
+        <div class="arrow-down"></div>
+
+        <!-- ¿Cumple con los requisitos? -->
+        <div class="flow-item diamond">
+            <p>¿Cumple con los requisitos?</p>
+        </div>
+
+        <div class="arrow-yes-no">
+            <div class="arrow-left">Sí</div>
+            <div class="arrow-right">No</div>
+        </div>
+
+        <!-- Sí - Fin -->
+        <div class="flow-item oval left">
+            <p>Fin</p>
+        </div>
+
+        <!-- No - Retroalimentación -->
+        <div class="flow-item rectangle right">
+            <p>Retroalimentación</p>
+        </div>
+
+        <div class="arrow-up"></div>
+    </div>
+</body>
+</html>
